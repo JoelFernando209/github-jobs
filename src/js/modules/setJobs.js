@@ -134,7 +134,7 @@ const setJob = (obj, parentDom) => {
   mainJobParent.appendChild(mainJobInfo);
   
   mainJobParent.addEventListener('click', () => {
-    window.location.href = `http://localhost:8080/info-job.html#${obj.id}`;
+    window.location.href = `https://joelfernando209.github.io/github-jobs/info-job.html#${obj.id}`;
   })
   
   parentDom.prepend(mainJobParent);
