@@ -1,0 +1,20 @@
+.main-info-jobs {
+  grid-column: 2 / 3;
+}
+
+.main-info-job {
+  margin-top: 1rem !important;
+}
+
+.main {
+  &__apply-info {
+    word-break: break-word;
+    color: #334680;
+    font-size: 1.5rem;
+    
+    a {
+      text-decoration: none;
+      color: #1E86FF;
+    }
+  }
+}

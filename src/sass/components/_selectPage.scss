@@ -1,0 +1,45 @@
+.main {
+  &__jobs-pages {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    
+    position: absolute;
+    right: 0;
+
+    & > * {
+      cursor: pointer;
+      
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+  
+  &__page-item {
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid rgba(gray, .4);
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all .3s;
+    margin-bottom: 1rem;
+    
+    &:hover {
+      border: 1px solid #1E86FF;
+      color: #1E86FF;
+    }
+    
+    &:last-child {
+      // This margin is to align the rows in flex-wrap.
+      
+      margin-right: 1rem;
+    }
+  }
+  
+  &__page-more {
+    opacity: .4;
+  }
+  
+  
+}

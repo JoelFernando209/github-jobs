@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    
+    <link href='./infoJob.css' rel='stylesheet' />
+    
+    <title>Github Jobs | Loading...</title>
+  </head>
+  <body class='container-dashboard'>
+    <header class='header'>
+      <img src='img/logo.png' alt='Logo Github Jobs' class='header__logo'/>
+    </header>
+    
+    <main class='main main-info-job'>
+      <aside class='main__ubication'>
+        <a href='http://localhost:8080/' class='main__go-back'><icon>&larr;</icon> Back to search</a>
+          
+        <section class='main__config-location'>
+          <span class='main__location-title'>
+            How to apply
+          </span>
+          
+          <div class='main__apply-info'></div>
+          
+        </section>
+        
+      </aside>
+      
+      <section class='main__jobs main__info-jobs'>
+        <div class='main__info-title'>
+          <span class='main__info-title-text'>Loading...</span>
+          <span class='main__type-job'>Please wait</span>
+        </div>
+        
+        <div class='main__info-date'>
+          <img src='img/clock-recent.svg' alt='Date: ' class='main__info-date-icon'/>
+          
+          <span class='main__info-date-text'></span>
+        </div>
+        
+        <div class='main__info-job-profile'>
+          <img src='img/backgroundImg.png' class='main__info-job-portrait'/>
+          
+          <div class='main__info-job-data'>
+            <span class='main__info-job-name'></span>
+            
+            <div class='main__info-ubication'>
+              <img src='img/earth-ouline.svg' alt='Ubication: ' class='main__info-ubication-icon'/>
+              
+              <span class='main__info-ubication-text'></span>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class='main__info-desc'></div>
+      </section>
+      
+      <footer class='author'>
+        Copyright &copy; Joel Fernando Dominguez Tapia
+      </footer>
+    </main>
+    
+    
+    <script src='./infoJob.comp.js'></script>
+  </body>
+  
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    
+    <link href='./index.css' rel='stylesheet' />
+    
+    <title>Github Jobs | Dashboard</title>
+  </head>
+  <body class='container-dashboard'>
+    <header class='header'>
+      <img src='img/logo.png' alt='Logo Github Jobs' class='header__logo'/>
+    </header>
+    
+    <div class='search'>
+      <div class='search__container'>
+        <label class='search__input-box'>
+          
+          <img src='img/work_outline.svg' class='search__input-icon' />
+          
+          <input type='text' placeholder='Title, companies, expertise or benefits' class='search__input'/>
+        </label>
+        
+        <button class='search__button'>Search</button>
+      </div>
+    </div>
+    
+    <main class='main'>
+      <aside class='main__ubication'>
+        <label>
+          <input type='checkbox' class='main__fulltime' />
+          <span class='main__checkbox-name'>Full time</span>
+        </label>
+          
+        <section class='main__config-location'>
+          <span class='main__location-title'>
+            Location
+          </span>
+          
+          <label class='main__location-search'>
+            <input type='text' placeholder='City, state, zip code or country' class='main__location-input'/>
+            
+            <img src='img/earth-ouline.svg' alt='Ubication' class='main__location-icon'/>
+            
+            <button class='main__location-btn'>Search</button>
+          </label>
+          
+        </section>
+        
+      </aside>
+      
+      <section class='main__jobs'>
+        <div class='loading'></div>
+        
+        <div class='main__jobs-pages'></div>
+      </section>
+      
+      <footer class='author'>
+        Copyright &copy; Joel Fernando Dominguez Tapia
+      </footer>
+    </main>
+    
+    <script src='./index.comp.js'></script>
+  </body>
+</html>

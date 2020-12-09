@@ -1,0 +1,8 @@
+.header {
+  align-self: center;
+  padding: 0 .5rem;
+
+  &__logo {
+    filter: invert(100%);
+  }
+}

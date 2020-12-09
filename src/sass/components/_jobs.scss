@@ -1,0 +1,92 @@
+.main {
+  &__jobs {
+    position: relative;
+  }
+  
+  &__job {
+    position: relative;
+    padding: 1.5rem;
+    
+    background-color: white;
+    
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-column-gap: 1rem;
+    
+    grid-auto-rows: 8.5rem;
+    
+    box-shadow: .5rem .5rem 1rem rgba(black, .1);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+  
+  &__img-job {
+    width: 90%;
+    height: 90%;
+    
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1rem;
+  }
+  
+  &__info-job {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    
+    & > * {
+      color: #334680;
+    }
+  }
+  
+  &__enterprise {
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  
+  &__role-search {
+    
+  }
+  
+  &__type-job {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .5rem;
+    border: 1px solid #334680;
+    border-radius: .5rem;
+  }
+  
+  &__job-info {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    font-size: 1rem;
+    color: rgba(black, .4);
+    
+    & > * {
+      display: inline-block;
+    }
+  }
+  
+  &__ubication-job, &__publication-job {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  &__ubication-job {
+    margin-right: 1rem;
+  }
+  
+  &__ubication-icon, &__publication-icon {
+    width: 2rem;
+    height: 2rem;
+    opacity: .4;
+    margin-right: .4rem;
+  }
+  
+  &__ubication-name, &__publication-name {
+    font-weight: 700;
+  }
+}

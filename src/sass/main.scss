@@ -1,0 +1,18 @@
+@import './abstracts/_mixins.scss';
+@import './abstracts/_animations.scss';
+
+@import './base/_base.scss';
+@import './base/_typography.scss';
+
+@import './pages/_dashboard.scss';
+@import './pages/_info-job.scss';
+
+@import './layout/_divMain.scss';
+@import './layout/_author.scss';
+@import './layout/_jobDesc.scss';
+
+@import './components/_header.scss';
+@import './components/_jobs.scss';
+@import './components/_ubication.scss';
+@import './components/_selectPage.scss';
+@import './components/_loading.scss';

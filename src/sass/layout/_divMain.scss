@@ -1,0 +1,24 @@
+.main {
+  display: grid;
+  grid-template-columns: 30% 2fr;
+  grid-column-gap: 2rem;
+  grid-auto-rows: 110%;
+  
+  margin-top: 3rem;
+  
+  &__go-back {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    
+    color: #1E86FF;
+    margin-bottom: 2rem;
+    
+    icon {
+      font-size: 3rem;
+      transform: translateY(-2px);
+      margin-right: 1rem;
+    }
+  }
+}
